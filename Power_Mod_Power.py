@@ -1,6 +1,6 @@
-a = float(input())
-b = float(input())
-m = float(input())
+a = int(input())
+b = int(input())
+m = int(input())
 
-print(int(pow(a,b)))
-print(pow(int(a),int(abs(b)),int((m))))
+print(pow(a,b))
+print(pow(a,b,m))
